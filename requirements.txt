@@ -31,7 +31,7 @@ notebook==6.0.0
 numexpr==2.6.9
 numpy==1.16.4
 -e git+git@github.com:openfisca/openfisca-core.git@0fbdd0018299f6a45314d7582e99f04f3fdd4d8c#egg=OpenFisca_Core
--e git+git@github.com:openfisca/openfisca-france.git@14de492e2ca5a2475fc324d6404f19065ffc8a74#egg=OpenFisca_France
+-e git+git@github.com:cbenz/openfisca-france.git@14de492e2ca5a2475fc324d6404f19065ffc8a74#egg=OpenFisca_France
 packaging==19.1
 pandocfilters==1.4.2
 parso==0.5.1
