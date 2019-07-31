@@ -27,13 +27,19 @@ See also:
 * https://ipywidgets.readthedocs.io/en/stable/user_install.html
 * https://github.com/plotly/plotly.py/blob/master/README.md#jupyterlab-support-python-35
 
-## Start
+## Start notebook
 
 ```bash
 jupyter lab
 ```
 
 Then open `index.ipynb`
+
+## Start voila app
+
+```bash
+voila waterfall.ipynb
+```
 
 ## Evolution
 

@@ -18,7 +18,9 @@ json5==0.8.5
 jsonschema==3.0.1
 jupyter-client==5.3.1
 jupyter-core==4.5.0
+jupyter-server==0.1.0
 jupyterlab==1.0.4
+jupyterlab-pygments==0.1.0
 jupyterlab-server==1.0.0
 MarkupSafe==1.1.1
 mistune==0.8.4
@@ -59,6 +61,7 @@ terminado==0.8.2
 testpath==0.4.2
 tornado==6.0.3
 traitlets==4.3.2
+voila==0.1.9
 wcwidth==0.1.7
 webencodings==0.5.1
 widgetsnbextension==3.5.1
