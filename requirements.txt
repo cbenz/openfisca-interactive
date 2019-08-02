@@ -33,6 +33,7 @@ numpy==1.16.4
 -e git+git@github.com:openfisca/openfisca-core.git@0fbdd0018299f6a45314d7582e99f04f3fdd4d8c#egg=OpenFisca_Core
 -e git+git@github.com:cbenz/openfisca-france.git@14de492e2ca5a2475fc324d6404f19065ffc8a74#egg=OpenFisca_France
 packaging==19.1
+pandas==0.25.0
 pandocfilters==1.4.2
 parso==0.5.1
 pexpect==4.7.0
@@ -49,6 +50,7 @@ pyparsing==2.4.2
 pyrsistent==0.15.4
 pytest==5.0.1
 python-dateutil==2.8.0
+pytz==2019.2
 PyYAML==5.1.1
 pyzmq==18.0.2
 retrying==1.3.3

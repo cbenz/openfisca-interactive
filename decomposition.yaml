@@ -1,60 +1,60 @@
 code: revenu_disponible
-name: Rev. disp.
+short_name: Revenu disponible
 children:
   - code: revenus_nets_du_travail
-    name: Revenus nets
+    short_name: Revenus nets
     children:
       - code: salaire_net
-        name: Salaire net
+        short_name: Salaire net
         children:
           - code: salaire_imposable
-            name: Salaire imposable
+            short_name: Salaire imposable
             children:
               - code: salaire_de_base
-                name: Salaire brut
+                short_name: Salaire brut
                 children:
                   - code: salaire_super_brut_hors_allegements
-                    name: Salaire super brut HA
+                    short_name: Salaire super brut HA
                     children:
                       - code: salaire_super_brut
-                        name: Salaire super brut
+                        short_name: Salaire super brut
                         children:
                           - code: cout_du_travail
-                            name: Coût du travail
+                            short_name: Coût du travail
                           - code: credit_impot_competitivite_emploi
-                            name: CICE
+                            short_name: CICE
                           - code: aide_premier_salarie
-                            name: Aide premier salarié
+                            short_name: Aide premier salarié
                           - code: aide_embauche_pme
-                            name: Aide PME
+                            short_name: Aide PME
                           - code: tehr
-                            name: Taxe exceptionnelle
+                            short_name: Taxe exceptionnelle
                       - code: allegement_fillon
-                        name: Fillon
+                        short_name: Fillon
                   - code: cotisations_employeur
-                    name: Cotisations employeur
+                    short_name: Cotisations employeur
               - code: cotisations_salariales
-                name: Cotisations salariales
+                short_name: Cotisations salariales
               - code: csg_deductible_salaire
-                name: CSG déductible
+                short_name: CSG déductible
           - code: csg_imposable_salaire
-            name: CSG imposable
+            short_name: CSG imposable
           - code: crds_salaire
-            name: CRDS
+            short_name: CRDS
   - code: prestations_sociales
-    name: Prestations sociales
+    short_name: Prestations sociales
     children:
       - code: minima_sociaux
-        name: Minima sociaux
+        short_name: Minima sociaux
         children:
           - code: rsa
-            name: RSA
+            short_name: RSA
           - code: ppa
-            name: PPA
+            short_name: PPA
   - code: ppe
-    name: PPE
+    short_name: PPE
   - code: impots_directs
-    name: Impôts directs
+    short_name: Impôts directs
     children:
       - code: irpp
-        name: Impôt sur le revenu
+        short_name: Impôt sur le revenu
