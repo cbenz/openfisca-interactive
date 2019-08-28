@@ -1,5 +1,4 @@
 jupyterlab
 ipywidgets
 openfisca-france
-altair
 git+https://github.com/openfisca/openfisca-matplotlib.git
