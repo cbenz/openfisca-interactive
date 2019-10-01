@@ -8,11 +8,7 @@ Click on this badge to open the demo Jupyter notebook: [![Binder](https://mybind
 
 ```
 pip install -r requirements.txt
-
-jupyter labextension install @jupyter-widgets/jupyterlab-manager --no-build
-jupyter labextension install jupyterlab-plotly --no-build
-jupyter labextension install plotlywidget --no-build
-jupyter lab build
+./postBuild
 ```
 
 If you have trouble with interactive widgets, try:
