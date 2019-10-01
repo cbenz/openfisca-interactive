@@ -34,7 +34,7 @@ Then open `index.ipynb`
 ## Start voila app
 
 ```bash
-voila waterfall.ipynb
+voila interactive_waterfall.ipynb
 ```
 
 ## Evolution
